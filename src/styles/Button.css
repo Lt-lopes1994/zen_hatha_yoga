@@ -1,0 +1,55 @@
+.btnNavigate {
+  background-color: #4caf50;
+  border: none;
+  border-radius: 1.5rem;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.btnNavigate:hover {
+  background-color: rgba(37, 102, 39, 0.247);
+  transition: 0.5s;
+  border: 1px solid #4caf50;
+  scale: 0.9;
+}
+
+.btnNavigate:active {
+  background-color: #4caf50;
+  transition: 0.5s;
+  border: 1px solid #4caf50;
+  scale: 0.9;
+}
+
+.btnNavigate:visited {
+  background-color: #4caf50;
+  transition: 0.5s;
+  border: 1px solid #4caf50;
+  scale: 0.9;
+}
+
+.btnNavigate:link {
+  background-color: #4caf50;
+  transition: 0.5s;
+  border: 1px solid #4caf50;
+  scale: 0.9;
+}
+
+.btnWhatsapp {
+  background-color: #25d366;
+  border: none;
+  border-radius: 1.5rem;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
