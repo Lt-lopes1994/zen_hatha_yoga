@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import Header from '../components/Header/Index.jsx';
+import Footer from '../components/Footer/index.jsx';
 import '../styles/Button.css';
 import '../styles/Home.css';
 
@@ -37,7 +38,21 @@ function Home() {
 
       </section>
 
-      <div className="container">
+      <div className="containerCourses">
+        <div className="coursesHeader">
+          <div className="coursesHeaderLeft">
+            <h3>Conheça nossos cursos</h3>
+            <p>
+              Passe o mouse sobre os cursos para conhecer um pouco mais sobre eles:
+            </p>
+          </div>
+          <div className="coursesHeaderRight">
+            <a href="https://wa.me/+19412660234" className='btnSchedule' target="_blank" rel="noreferrer">
+              <i className="fa fa-whatsapp" /> Agende uma aula
+            </a>
+          </div>
+        </div>
+
         <nav>
           <ul>
             <li
@@ -88,7 +103,8 @@ function Home() {
           </ul>
         </nav>
       </div>
-    </div>
+      <Footer />
+    </div >
   );
 }
 

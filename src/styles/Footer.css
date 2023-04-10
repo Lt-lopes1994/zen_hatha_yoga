@@ -1,0 +1,67 @@
+.containerFooter {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  background-color: #7e08b4;
+  color: #ffffff;
+  padding: 20px;
+
+  width: 100%;
+  height: 15rem;
+}
+
+.social {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.social h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.social p {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.social ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.social li {
+  margin: 0 10px;
+}
+
+.social li a {
+  color: #ffffff;
+  font-size: 1.3rem;
+}
+
+.social li a:hover {
+  color: #0455b1;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  gap: 10px;
+}
+
+.contact li {
+  margin: 0.2rem;
+}
+
+/* Path: src\styles\Home.css */

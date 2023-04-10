@@ -60,42 +60,80 @@
   height: 5rem;
 }
 
-.container {
+.containerCourses {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
 
+  height: 45rem;
+
+  background: url("https://media1.giphy.com/media/l4Fsy3bOORF1iu7JK/giphy.gif?cid=ecf05e47hwxck6sjzmfhgxwbylogjoog8llj4fxy2wld3tuc&rid=giphy.gif&ct=g")
+    center/cover no-repeat;
+}
+
+.coursesHeader {
+  display: flex;
+  width: 100%;
+}
+
+.coursesHeaderLeft {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.coursesHeaderRight {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.coursesHeader h3 {
+  font-size: 4rem;
+  color: #f5faf5;
+  margin-bottom: 1rem;
+}
+
+.coursesHeader p {
+  font-size: 1.5rem;
+  color: #f0f3f0;
+  margin-bottom: 2rem;
+}
+
+.containerCourses nav {
+  display: flex;
+  justify-content: center;
   margin-top: 1rem;
 }
 
-.container nav {
-  display: flex;
-  justify-content: center;
-}
-
-.container ul {
+.containerCourses ul {
   display: flex;
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-.container li {
+.containerCourses li {
   cursor: pointer;
   margin: 0 20px;
   padding: 10px 20px;
-  border: 1px solid #ccc;
+  border: 1px solid #c704e0;
+  background-color: #2082a0;
   border-radius: 5px;
   position: relative;
 }
 
-.container li.active,
+.containerCourses li.active,
 li:hover {
-  background-color: #f1f1f1;
+  transition: all 0.5s ease-in-out;
+  background-color: #16b6e7;
 }
 
-.container li .section {
+.containerCourses li .section {
   position: absolute;
   top: 40px;
   left: 0;
@@ -108,13 +146,13 @@ li:hover {
   transition: all 0.5s ease-in-out;
 }
 
-.container li.active .section,
+.containerCourses li.active .section,
 li:hover .section {
   opacity: 1;
   transform: translateY(0);
 }
 
-.container li .section h2 {
+.containerCourses li .section h2 {
   margin: 0;
   padding: 0;
   font-size: 1.5rem;
