@@ -1,33 +1,31 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import PlaceholderLogo from '../../assets/resource/review.png';
-import '../../styles/Header.css'
+import PlaceholderLogo from "../../assets/resource/review.png";
+import "../../styles/Header.css";
 
-function Header () {
+function Header() {
   return (
-    <header className='containerHeader'>
-      <img src={PlaceholderLogo} alt='Logo'/>
-      <h1>
-        Zen Hatha Yoga
-      </h1>
+    <header className="containerHeader">
+      <img src={PlaceholderLogo} alt="Logo" />
+      <h1>Zen Hatha Yoga</h1>
 
-      <nav >
-        <ul className='navHeader'>
+      <nav>
+        <ul className="navHeader">
           <li>
-            <a href='#'>Home</a>
+            <a href="/">Home</a>
           </li>
           <li>
-            <a href='#'>Sobre</a>
+            <a href="/sobreNos">Sobre</a>
           </li>
           <li>
-            <a href='#'>Contato</a>
+            <a href="#">Contato</a>
           </li>
           <li>
-            <a href='#'>Cursos</a>
+            <a href="#">Cursos</a>
           </li>
         </ul>
       </nav>
     </header>
-  )
+  );
 }
 
 export default Header;
