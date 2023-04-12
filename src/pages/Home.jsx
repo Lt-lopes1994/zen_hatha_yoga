@@ -6,8 +6,6 @@ import "../styles/Home.css";
 
 function Home() {
   const [selectedSection, setSelectedSection] = useState("");
-  const [selectedSectionNotClasses, setSelectedSectionNotClasses] =
-    useState("");
 
   const handleSectionSelect = (section) => {
     setSelectedSection(section);

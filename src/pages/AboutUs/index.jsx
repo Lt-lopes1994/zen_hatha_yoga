@@ -51,7 +51,7 @@ function AboutUs() {
           tornamos mais autênticos e nossa vida passa a ter propósitos mais
           elevados, então, conhecemos a verdadeira felicidade. O processo
           Psicoterapêutico é um caminho que leva a auto transformação e
-          aprimoramento. Venha desvendar sua melhor versão !
+          aprimoramento. Venha desvendar sua melhor versão!
         </p>
       </section>
       <Footer />

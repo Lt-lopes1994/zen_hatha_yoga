@@ -105,7 +105,7 @@
 .containerCourses nav {
   display: flex;
   justify-content: center;
-  margin-top: 1rem;
+  margin-top: 45rem;
 }
 
 .containerCourses ul {
@@ -119,8 +119,8 @@
   cursor: pointer;
   margin: 0 20px;
   padding: 10px 20px;
-  border: 1px solid #c704e0;
-  background-color: #2082a0;
+  border: 1px solid #8c4684;
+  background-color: #9ac979;
   border-radius: 5px;
   position: relative;
 }
@@ -128,12 +128,12 @@
 .containerCourses li.active,
 li:hover {
   transition: all 0.5s ease-in-out;
-  background-color: #16b6e7;
+  background-color: #a8f075;
 }
 
 .containerCourses li .section {
   position: absolute;
-  top: 40px;
+  bottom: 50px;
   left: 0;
   width: 30rem;
   padding: 20px;
