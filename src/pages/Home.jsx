@@ -68,7 +68,7 @@ function Home() {
           </div>
         </div>
 
-        <nav>
+        <nav className="coursesNavBar">
           <ul>
             <li
               className={selectedSection === "yoga" ? "active" : ""}

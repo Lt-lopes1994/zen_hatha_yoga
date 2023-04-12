@@ -102,20 +102,20 @@
   margin-bottom: 2rem;
 }
 
-.containerCourses nav {
+.coursesNavBar {
   display: flex;
   justify-content: center;
   margin-top: 45rem;
 }
 
-.containerCourses ul {
+.coursesNavBar ul {
   display: flex;
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-.containerCourses li {
+.coursesNavBar li {
   cursor: pointer;
   margin: 0 20px;
   padding: 10px 20px;
@@ -125,39 +125,39 @@
   position: relative;
 }
 
-.containerCourses li.active,
+.coursesNavBar li.active,
 li:hover {
   transition: all 0.5s ease-in-out;
   background-color: #a8f075;
 }
 
-.containerCourses li .section {
+.coursesNavBar li .section {
   position: absolute;
   bottom: 50px;
   left: 0;
   width: 30rem;
   padding: 20px;
-  background-color: #f1f1f1;
+  background-color: #f3d6ac;
   box-sizing: border-box;
   opacity: 0;
   transform: translateY(20px);
   transition: all 0.5s ease-in-out;
 }
 
-.containerCourses li.active .section,
+.coursesNavBar li.active .section,
 li:hover .section {
   opacity: 1;
   transform: translateY(0);
 }
 
-.containerCourses li .section h2 {
+.coursesNavBar li .section h2 {
   margin: 0;
   padding: 0;
   font-size: 1.5rem;
   color: #333;
 }
 
-.container li .section p {
+.coursesNavBar li .section p {
   margin: 0;
   padding: 0;
   font-size: 1.5rem;

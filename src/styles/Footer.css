@@ -46,8 +46,8 @@
   font-size: 1.3rem;
 }
 
-.social li a:hover {
-  color: #0455b1;
+.social ul:hover {
+  color: #8c4684;
 }
 
 .contact {
