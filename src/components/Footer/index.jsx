@@ -3,9 +3,17 @@ import "../../styles/Footer.css";
 
 const Footer = () => {
   const socialContent = [
-    { id: 1, liveLink: "https://www.facebook.com/", icon: "fa-facebook" },
+    {
+      id: 1,
+      liveLink: "https://www.facebook.com/nilzecoach",
+      icon: "fa-facebook"
+    },
     { id: 2, liveLink: "https://www.twitter.com/", icon: "fa-twitter" },
-    { id: 3, liveLink: "https://www.instagram.com/", icon: "fa-instagram" },
+    {
+      id: 3,
+      liveLink: "https://www.instagram.com/nilzeterapias/",
+      icon: "fa-instagram"
+    },
     { id: 4, liveLink: "https://www.pinterest.com/", icon: "fa-pinterest" },
     { id: 5, liveLink: "https://www.dribbble.com/", icon: "fa-dribbble" }
   ];
