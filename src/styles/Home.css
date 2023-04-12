@@ -64,10 +64,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-
-  height: 45rem;
-
-  background: url("https://media1.giphy.com/media/l4Fsy3bOORF1iu7JK/giphy.gif?cid=ecf05e47hwxck6sjzmfhgxwbylogjoog8llj4fxy2wld3tuc&rid=giphy.gif&ct=g")
+  height: 63rem;
+  background: url("../assets/Gif/_import_60c2fc0a2d4675.24334274.gif")
     center/cover no-repeat;
 }
 
@@ -165,3 +163,8 @@ li:hover .section {
   font-size: 1.5rem;
   color: #333;
 }
+
+/* Path: src\styles\Header.css */
+/* Green: #9ac979 */
+/* Yellow sand: #f3d6ac */
+/* Light purple: ##8c4684 */

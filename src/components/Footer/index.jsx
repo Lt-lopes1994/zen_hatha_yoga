@@ -14,10 +14,8 @@ const Footer = () => {
     <div className="containerFooter">
       <div className="aboutUs">
         <h3>Sobre nós : </h3>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur
-        distinctio soluta ab unde officia, corrupti, perspiciatis quo
-        accusantium dicta officiis dolor iste ad veniam eligendi vero dolore
-        placeat eveniet dolorem!
+        Um espaço para você que quer se reconectar com a sua essência e se
+        redescobrir.
       </div>
       <div className="social">
         <h3>Redes Sociais : </h3>
@@ -37,10 +35,7 @@ const Footer = () => {
           <li>
             <i className="fa fa-map-marker" />
             <span>Endereço : </span>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur
-            distinctio soluta ab unde officia, corrupti, perspiciatis quo
-            accusantium dicta officiis dolor iste ad veniam eligendi vero dolore
-            placeat eveniet dolorem!
+            Av: DR Angelo Simões, 707 - Vila Marieta, Campinas - SP, 13041-150
           </li>
           <li>
             <i className="fa fa-phone" />

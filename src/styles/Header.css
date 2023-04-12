@@ -7,8 +7,8 @@
   justify-content: space-between;
   align-items: center;
 
-  background-color: #9a02d6;
-  color: #0d0855;
+  background-color: #8c4684;
+  color: #f3d6ac;
   padding: 0 20px;
   height: 150px;
 
@@ -27,5 +27,10 @@
 }
 
 .navHeader a {
-  color: #0d0855;
+  color: #f3d6ac;
 }
+
+/* Path: src\styles\Header.css */
+/* Green: #9ac979 */
+/* Yellow sand: #f3d6ac */
+/* Light purple: ##8c4684 */

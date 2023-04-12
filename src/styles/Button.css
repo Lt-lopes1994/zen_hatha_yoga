@@ -1,5 +1,5 @@
 .btnNavigate {
-  background-color: #4caf50;
+  background-color: #9ac979;
   border: none;
   border-radius: 1.5rem;
   color: white;
@@ -15,25 +15,25 @@
 .btnNavigate:hover {
   background-color: rgba(37, 102, 39, 0.247);
   transition: 0.5s;
-  border: 1px solid #4caf50;
+  border: 1px solid #9ac979;
   scale: 0.9;
 }
 
 .btnNavigate:active {
   transition: 0.5s;
-  border: 1px solid #4caf50;
+  border: 1px solid #9ac979;
   scale: 0.9;
 }
 
 .btnNavigate:visited {
   transition: 0.5s;
-  border: 1px solid #4caf50;
+  border: 1px solid #9ac979;
   scale: 0.9;
 }
 
 .btnNavigate:link {
   transition: 0.5s;
-  border: 1px solid #4caf50;
+  border: 1px solid #9ac979;
   scale: 0.9;
 }
 
@@ -53,7 +53,7 @@
 .btnWhatsapp:hover {
   background-color: rgba(37, 102, 39, 0.247);
   transition: 0.5s;
-  border: 1px solid #25d366;
+  border: 1px solid #9ac979;
   scale: 0.9;
 }
 
