@@ -123,9 +123,9 @@ function Home() {
           <div className="coursesHeaderLeft">
             <h3>Conheça nossos cursos</h3>
             <p>
-              {windowSize.width > 768
+              {windowSize.width > 998
                 ? "Clique sobre os cursos para conhecer um pouco mais sobre eles:"
-                : "Clique sobre os cursos para conhecer um pouco mais sobre eles:"}
+                : "Passe o mouse sobre os cursos para conhecer um pouco mais sobre eles:"}
             </p>
           </div>
           <div className="coursesHeaderRight">
