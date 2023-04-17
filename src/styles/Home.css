@@ -125,8 +125,7 @@
   position: relative;
 }
 
-.coursesNavBar li.active,
-li:hover {
+.coursesNavBar li:hover {
   transition: all 0.5s ease-in-out;
   background-color: #a8f075;
 }
@@ -162,6 +161,130 @@ li:hover .section {
   padding: 0;
   font-size: 1.5rem;
   color: #333;
+}
+
+@media screen and (max-width: 768px) {
+  .containerHome {
+    height: 100%;
+    width: 100vw;
+  }
+
+  .hero {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+  }
+
+  .heroLeftContent {
+    width: 100%;
+    height: 50%;
+  }
+
+  .heroRightContent {
+    width: 100%;
+    height: 200px;
+  }
+
+  .heroLeftContent h1 {
+    font-size: 2rem;
+    color: #f5faf5;
+    margin-bottom: 1rem;
+  }
+
+  .heroLeftContent p {
+    font-size: 1.5rem;
+    color: #f0f3f0;
+    margin-bottom: 2rem;
+  }
+
+  .containerCourses {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+  }
+
+  .coursesHeader {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+  }
+
+  .coursesHeaderLeft {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .coursesHeaderRight {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .coursesNavBar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 0;
+  }
+
+  .coursesNavBar ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .coursesNavBar li {
+    cursor: pointer;
+    margin: 0 20px;
+    padding: 10px 20px;
+    border: 1px solid #8c4684;
+    background-color: #9ac979;
+    border-radius: 5px;
+    position: relative;
+  }
+
+  .coursesNavBar li:hover {
+    transition: all 0.5s ease-in-out;
+    background-color: #a8f075;
+  }
+
+  .coursesNavBar li .carousel {
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+    width: 30rem;
+    padding: 20px;
+    background-color: #f3d6ac;
+    box-sizing: border-box;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.5s ease-in-out;
+  }
+
+  .carousel {
+    background: #f3d6ac;
+    width: 100%;
+    height: 100%;
+  }
+
+  .carousel h2 {
+    color: #333;
+    margin: 0.1rem;
+  }
+
+  .carousel p {
+    color: #333;
+    padding: 1rem;
+  }
 }
 
 /* Path: src\styles\Header.css */

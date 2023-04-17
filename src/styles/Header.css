@@ -7,7 +7,7 @@
   justify-content: space-between;
   align-items: center;
 
-  background-color: #8c4684;
+  background-color: #863288;
   color: #f3d6ac;
   padding: 0 20px;
   height: 150px;
@@ -28,6 +28,36 @@
 
 .navHeader a {
   color: #f3d6ac;
+}
+
+.navHeader li:hover {
+  color: #f3d6ac;
+}
+
+.containerHeader img {
+  width: 150px;
+  height: 150px;
+}
+
+@media screen and (max-width: 768px) {
+  .containerHeader {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+  }
+
+  .navHeader {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .containerHeader img {
+    width: 100px;
+    height: 100px;
+  }
 }
 
 /* Path: src\styles\Header.css */

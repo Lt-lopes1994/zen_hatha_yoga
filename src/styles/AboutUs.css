@@ -37,3 +37,45 @@
   text-align: center;
   font-family: "Roboto", sans-serif;
 }
+
+@media screen and (max-width: 768px) {
+  .containerAboutUs {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+  }
+
+  .ower img {
+    height: 20rem;
+    width: 20rem;
+  }
+
+  .sectionAboutUs {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0.5rem;
+  }
+
+  .sectionAboutUs h1 {
+    font-size: 2rem;
+  }
+
+  .sectionAboutUs p {
+    font-size: 1.5rem;
+  }
+
+  .ower {
+    margin-top: 1rem;
+  }
+
+  .containerAboutUs {
+    margin-top: 1rem;
+  }
+
+  .sectionAboutUs {
+    margin-top: 1rem;
+  }
+}

@@ -1,11 +1,12 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import PlaceholderLogo from "../../assets/resource/review.png";
+import Logo from "../../assets/img/Logo_Hatha_yoga.jpg";
 import "../../styles/Header.css";
 
 function Header() {
   return (
     <header className="containerHeader">
-      <img src={PlaceholderLogo} alt="Logo" />
+      <img src={Logo} alt="Logo" />
       <h1>Zen Hatha Yoga</h1>
 
       <nav>
