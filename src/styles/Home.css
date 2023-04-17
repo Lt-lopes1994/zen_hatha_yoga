@@ -6,13 +6,13 @@
 }
 
 .heroLeftContent h1 {
-  font-size: 4rem;
+  font-size: 3.5rem;
   color: #f5faf5;
   margin-bottom: 1rem;
 }
 
 .heroLeftContent p {
-  font-size: 3rem;
+  font-size: 2.5rem;
   color: #f0f3f0;
   margin-bottom: 2rem;
 }
@@ -220,13 +220,13 @@ li:hover .section {
   }
 
   .coursesHeader h3 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     color: #507535;
     margin-bottom: 1rem;
   }
 
   .coursesHeader p {
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: #507535;
     margin-bottom: 2rem;
   }
