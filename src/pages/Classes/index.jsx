@@ -4,7 +4,6 @@ import BarraTerapy from '../../assets/img/barra_terapy.jpeg';
 import BarraRoom from '../../assets/img/barra_room.jpeg';
 import LotusPose from '../../assets/img/lotus_pose.jpeg';
 import YogaClass from '../../assets/img/yoga_class.jpeg';
-import YogaPose from '../../assets/img/yoga_pose-01.jpeg';
 import YogaStudent from '../../assets/img/yoga_student.jpeg';
 import Footer from '../../components/Footer/index.jsx';
 import Header from '../../components/Header/Index.jsx';
@@ -33,8 +32,9 @@ function AboutUs() {
               infiniteLoop
               showThumbs={false}
               showStatus={false}
-              showIndicators={false}
-              showArrows={true}
+              showIndicators={true}
+              showArrows={false}
+              dynamicHeight={true}
             >
               <div>
                 <img src={YogaStudent} alt="banner" />
@@ -65,8 +65,9 @@ function AboutUs() {
               infiniteLoop
               showThumbs={false}
               showStatus={false}
-              showIndicators={false}
-              showArrows={true}
+              showIndicators={true}
+              showArrows={false}
+              dynamicHeight={true}
             >
               <div>
                 <img src={BarraTerapy} alt="Seção de Barra" />
@@ -101,8 +102,10 @@ function AboutUs() {
               infiniteLoop
               showThumbs={false}
               showStatus={false}
-              showIndicators={false}
-              showArrows={true}
+              showIndicators={true}
+              showArrows={false}
+              swipeable={true}
+              dynamicHeight={true}
             >
               <div>
                 <img

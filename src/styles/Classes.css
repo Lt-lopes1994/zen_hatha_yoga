@@ -1,3 +1,5 @@
+@import url('react-responsive-carousel/lib/styles/carousel.min.css');
+
 .sectionClasses {
   display: flex;
   flex-direction: column;
@@ -59,4 +61,38 @@
   width: 60%;
   height: 100%;
   margin-bottom: 9rem;
+}
+
+@media screen and (max-width: 768px) {
+  .containerClasses {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+  }
+
+  .sectionClasses {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    margin: 10rem 0;
+    gap: 2rem;
+  }
+
+  .carouselYoga,
+  .carouselBarra,
+  .carouselMassage {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: fit-content;
+    margin-bottom: 9rem;
+  }
 }
