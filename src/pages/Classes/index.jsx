@@ -31,7 +31,7 @@ function AboutUs() {
             <Carousel
               className="carouselYoga"
               infiniteLoop
-              showThumbs={true}
+              showThumbs={false}
               showStatus={false}
               showIndicators={false}
               showArrows={true}
@@ -63,7 +63,7 @@ function AboutUs() {
             <Carousel
               className="carouselBarra"
               infiniteLoop
-              showThumbs={true}
+              showThumbs={false}
               showStatus={false}
               showIndicators={false}
               showArrows={true}
@@ -99,7 +99,7 @@ function AboutUs() {
             <Carousel
               className="carouselMassage"
               infiniteLoop
-              showThumbs={true}
+              showThumbs={false}
               showStatus={false}
               showIndicators={false}
               showArrows={true}

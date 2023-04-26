@@ -2,8 +2,9 @@
   display: flex;
   flex-direction: column;
   text-align: center;
+  justify-content: center;
   width: 100%;
-  margin: 2rem 0;
+  margin: 10rem 25rem;
   gap: 2rem;
 }
 
@@ -31,9 +32,17 @@
 .carouselYoga {
   display: flex;
   text-align: center;
+  justify-content: center;
+  align-items: center;
   width: 60%;
   height: 100%;
   margin-bottom: 9rem;
+}
+
+.carouselYoga img {
+  width: 100%;
+  height: 50rem;
+  object-fit: cover;
 }
 
 .carouselBarra {

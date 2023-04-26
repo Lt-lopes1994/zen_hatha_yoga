@@ -1,14 +1,14 @@
 /* eslint-disable react/jsx-key */
-import { useState, useEffect } from "react";
-import Header from "../components/Header/Index.jsx";
-import Footer from "../components/Footer/index.jsx";
-import { Carousel } from "react-responsive-carousel";
-import "react-responsive-carousel/lib/styles/carousel.min.css";
-import "../styles/Button.css";
-import "../styles/Home.css";
+import { useState, useEffect } from 'react';
+import Header from '../components/Header/Index.jsx';
+import Footer from '../components/Footer/index.jsx';
+import { Carousel } from 'react-responsive-carousel';
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
+import '../styles/Button.css';
+import '../styles/Home.css';
 
 function Home() {
-  const [selectedSection, setSelectedSection] = useState("");
+  const [selectedSection, setSelectedSection] = useState('');
   const [windowSize, setWindowSize] = useState({
     width: undefined,
     height: undefined
@@ -22,11 +22,11 @@ function Home() {
       });
     }
 
-    window.addEventListener("resize", handleResize);
+    window.addEventListener('resize', handleResize);
 
     handleResize();
 
-    return () => window.removeEventListener("resize", handleResize);
+    return () => window.removeEventListener('resize', handleResize);
   }, []);
 
   const handleSectionSelect = (section) => {
@@ -91,7 +91,7 @@ function Home() {
         <div className="heroLeftContent">
           <div className="overlay">
             <h1>
-              Seja bem vindo ao site do <br />{" "}
+              Seja bem vindo ao site do <br />{' '}
               <span>Espaço Zen Hatha Yoga</span>
             </h1>
 
@@ -109,7 +109,7 @@ function Home() {
               parte de algo maior!
             </p>
 
-            <a href="/sobreNos">
+            <a href="/aulas">
               <button className="btnNavigate">Conheça mais</button>
             </a>
           </div>
@@ -124,8 +124,8 @@ function Home() {
             <h3>Conheça nossos cursos</h3>
             <p>
               {windowSize.width > 998
-                ? "Passe o mouse sobre os cursos para conhecer um pouco mais sobre eles:"
-                : "Clique sobre os cursos para conhecer um pouco mais sobre eles:"}
+                ? 'Passe o mouse sobre os cursos para conhecer um pouco mais sobre eles:'
+                : 'Clique sobre os cursos para conhecer um pouco mais sobre eles:'}
             </p>
           </div>
           <div className="coursesHeaderRight">
@@ -144,9 +144,9 @@ function Home() {
           <nav className="coursesNavBar">
             <ul>
               <li
-                className={selectedSection === "yoga" ? "active" : ""}
-                onMouseEnter={() => handleSectionSelect("yoga")}
-                onMouseLeave={() => handleSectionSelect("")}
+                className={selectedSection === 'yoga' ? 'active' : ''}
+                onMouseEnter={() => handleSectionSelect('yoga')}
+                onMouseLeave={() => handleSectionSelect('')}
               >
                 Aulas de Yoga
                 <div className="section">
@@ -164,9 +164,9 @@ function Home() {
                 </div>
               </li>
               <li
-                className={selectedSection === "barra" ? "active" : ""}
-                onMouseEnter={() => handleSectionSelect("barra")}
-                onMouseLeave={() => handleSectionSelect("")}
+                className={selectedSection === 'barra' ? 'active' : ''}
+                onMouseEnter={() => handleSectionSelect('barra')}
+                onMouseLeave={() => handleSectionSelect('')}
               >
                 Barra Access
                 <div className="section">
@@ -184,9 +184,9 @@ function Home() {
                 </div>
               </li>
               <li
-                className={selectedSection === "massagem" ? "active" : ""}
-                onMouseEnter={() => handleSectionSelect("massagem")}
-                onMouseLeave={() => handleSectionSelect("")}
+                className={selectedSection === 'massagem' ? 'active' : ''}
+                onMouseEnter={() => handleSectionSelect('massagem')}
+                onMouseLeave={() => handleSectionSelect('')}
               >
                 Massagem keiraku beauty
                 <div className="section">
@@ -200,9 +200,9 @@ function Home() {
                 </div>
               </li>
               <li
-                className={selectedSection === "psicoterapia" ? "active" : ""}
-                onMouseEnter={() => handleSectionSelect("psicoterapia")}
-                onMouseLeave={() => handleSectionSelect("")}
+                className={selectedSection === 'psicoterapia' ? 'active' : ''}
+                onMouseEnter={() => handleSectionSelect('psicoterapia')}
+                onMouseLeave={() => handleSectionSelect('')}
               >
                 Psicoterapia
                 <div className="section">
