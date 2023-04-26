@@ -1,0 +1,53 @@
+.sectionClasses {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+  margin: 2rem 0;
+  gap: 2rem;
+}
+
+.containerTexts {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 3rem 5rem;
+}
+
+.titleClasses {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #000000;
+  margin: 1rem 0;
+}
+
+.textClasses {
+  font-size: 2rem;
+  color: #000000;
+  width: 30rem;
+  margin: 1rem 0;
+}
+
+.carouselYoga {
+  display: flex;
+  text-align: center;
+  width: 60%;
+  height: 100%;
+  margin-bottom: 9rem;
+}
+
+.carouselBarra {
+  display: flex;
+  text-align: center;
+  width: 60%;
+  height: 100%;
+  margin-bottom: 9rem;
+}
+
+.carouselMassage {
+  display: flex;
+  text-align: center;
+  width: 60%;
+  height: 100%;
+  margin-bottom: 9rem;
+}

@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import PlaceholderLogo from "../../assets/resource/review.png";
-import Logo from "../../assets/img/Logo_Hatha_yoga.jpg";
-import "../../styles/Header.css";
+import PlaceholderLogo from '../../assets/resource/review.png';
+import Logo from '../../assets/img/Logo_Hatha_yoga.jpg';
+import '../../styles/Header.css';
 
 function Header() {
   return (
@@ -22,6 +22,9 @@ function Header() {
           </li>
           <li>
             <a href="#">Cursos</a>
+          </li>
+          <li>
+            <a href="/aulas">Aulas</a>
           </li>
         </ul>
       </nav>
