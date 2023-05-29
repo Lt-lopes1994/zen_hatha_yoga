@@ -60,6 +60,10 @@
     width: 100px;
     height: 100px;
   }
+
+  .containerHeader h1 {
+    text-align: center;
+  }
 }
 
 /* Path: src\styles\Header.css */

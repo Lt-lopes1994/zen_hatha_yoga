@@ -1,13 +1,13 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import PlaceholderLogo from '../../assets/resource/review.png';
-import Logo from '../../assets/img/Logo_Hatha_yoga.jpg';
+
+import Logo from '../../assets/img/NovoLogo.jpeg';
 import '../../styles/Header.css';
 
 function Header() {
   return (
     <header className="containerHeader">
       <img src={Logo} alt="Logo" />
-      <h1>Espaço consciência Zen</h1>
+      <h1>Espaço Consciência Zen</h1>
 
       <nav>
         <ul className="navHeader">
