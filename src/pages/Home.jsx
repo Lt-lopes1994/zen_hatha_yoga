@@ -96,17 +96,13 @@ function Home() {
             </h1>
 
             <p>
-              Aqui temos um espaço para você que busca saúde, bem estar e
-              qualidade de vida.
-              <br />
-              Venha conhecer nossos cursos e agende uma aula experimental em uma
-              de nossas modalidades.
-              <br />
-              Aulas de Yoga, Barra Access, Massagem Keiraku Beauty e
-              Psicoterapia.
-              <br />
-              Venha se descobrir, renovar e se reconectar com você mesmo faça
-              parte de algo maior!
+              Bem-vindo Ser Infinito! Conheça um pouco sobre nosso trabalho e
+              serviços que oferecemos. Nosso foco é proporcionar a ampliação das
+              consciências , através do autoconhecimento. Aqui buscamos
+              autenticidade , isto é , empoderamos as pessoas para que tragam à
+              tona seu EU REAL, cultivando vida interior, comunhão com o corpo e
+              autorresponsabilidade para quem quer ter autonomia e se tornar seu
+              próprio mestre.
             </p>
 
             <a href="/aulas">
@@ -130,7 +126,7 @@ function Home() {
           </div>
           <div className="coursesHeaderRight">
             <a
-              href="https://wa.me/+19412660234"
+              href="https://wa.me/+ 19991965025"
               className="btnSchedule"
               target="_blank"
               rel="noreferrer"

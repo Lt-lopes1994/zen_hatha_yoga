@@ -7,7 +7,7 @@ function Header() {
   return (
     <header className="containerHeader">
       <img src={Logo} alt="Logo" />
-      <h1>Zen Hatha Yoga</h1>
+      <h1>Espaço consciência Zen</h1>
 
       <nav>
         <ul className="navHeader">

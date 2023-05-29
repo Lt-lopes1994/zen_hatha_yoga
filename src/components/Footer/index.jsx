@@ -1,21 +1,23 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import "../../styles/Footer.css";
+import '../../styles/Footer.css';
 
 const Footer = () => {
   const socialContent = [
     {
       id: 1,
-      liveLink: "https://www.facebook.com/nilzecoach",
-      icon: "fa-facebook"
+      liveLink: 'https://www.facebook.com/nilzecoach',
+      icon: 'fa-facebook'
     },
-    { id: 2, liveLink: "https://www.twitter.com/", icon: "fa-twitter" },
+    {
+      id: 2,
+      liveLink: 'https://www.instagram.com/nilzeterapias/',
+      icon: 'fa-instagram'
+    },
     {
       id: 3,
-      liveLink: "https://www.instagram.com/nilzeterapias/",
-      icon: "fa-instagram"
-    },
-    { id: 4, liveLink: "https://www.pinterest.com/", icon: "fa-pinterest" },
-    { id: 5, liveLink: "https://www.dribbble.com/", icon: "fa-dribbble" }
+      liveLink: 'https://youtube.com/@espacoconscienciazen',
+      icon: 'fa-youtube'
+    }
   ];
 
   return (
@@ -27,15 +29,25 @@ const Footer = () => {
       </div>
       <div className="social">
         <h3>Redes Sociais : </h3>
-        <ul style={{ display: "flex", flex: "row", gap: "15px" }}>
-          {socialContent.map((item) => (
-            <li key={item.id}>
-              <a href={item.liveLink} target="_blank" rel="noopener noreferrer">
-                <i className={`fa ${item.icon}`} />
-              </a>
-            </li>
-          ))}
-        </ul>
+        <p>Conecte-se com a gente!</p>
+        <p>
+          Siga-nos nas redes sociais e fique por dentro de todas as novidades.
+        </p>
+        <div className="socialIcons">
+          <ul style={{ display: 'flex', flexDirection: 'row', gap: '1rem' }}>
+            {socialContent.map((item) => (
+              <li key={item.id}>
+                <a
+                  href={item.liveLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i className={`fa ${item.icon}`} />
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
       </div>
       <div className="contact">
         <h3>Contato : </h3>
@@ -48,12 +60,12 @@ const Footer = () => {
           <li>
             <i className="fa fa-phone" />
             <span>Telefone : </span>
-            (11) 99999-9999
+            (19) 99196-5025
           </li>
           <li>
             <i className="fa fa-envelope" />
             <span>Email : </span>
-            fakemail.com.br
+            espacozen.hathayoga@gmail.com
           </li>
         </ul>
       </div>

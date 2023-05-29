@@ -18,6 +18,7 @@
   align-items: center;
   width: 100%;
   height: 100%;
+  margin-top: 1rem;
 }
 
 .social h3 {
@@ -30,24 +31,21 @@
   margin-bottom: 10px;
 }
 
-.social ul {
+.socialIcons {
   display: flex;
-  list-style: none;
-  margin: 0;
-  padding: 0;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
 }
 
-.social li {
-  margin: 0 10px;
+.socialIcons li a {
+  color: #f3d6ac;
 }
 
-.social li a {
+.socialIcons li a:hover {
   color: #ffffff;
-  font-size: 1.3rem;
-}
-
-.social ul:hover {
-  color: #8c4684;
 }
 
 .contact {
@@ -102,6 +100,10 @@
 
   .contact ul {
     flex-direction: column;
+  }
+
+  .socialIcons li a:visited {
+    color: #ffffff;
   }
 }
 

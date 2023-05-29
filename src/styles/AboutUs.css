@@ -35,16 +35,10 @@
   margin: 1rem 2rem;
   padding: 1rem 1.5rem;
   text-align: center;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 @media screen and (max-width: 768px) {
-  .containerAboutUs {
-    display: flex;
-    flex-direction: column;
-    width: 100vw;
-  }
-
   .ower img {
     height: 20rem;
     width: 20rem;
@@ -57,10 +51,14 @@
     justify-content: center;
     align-items: center;
     margin: 1rem 0.5rem;
+
+    width: fit-content;
+    height: fit-content;
   }
 
   .sectionAboutUs h1 {
     font-size: 2rem;
+    text-align: center;
   }
 
   .sectionAboutUs p {
