@@ -147,9 +147,9 @@ function Home() {
                   <h2>Aulas de Yoga</h2>
                   <p>
                     O Hathayoga é o mais terapêutico dos Yogas. É a mais
-                    poderosa ferramenta de autoconhecimento e auto
-                    desenvolvimento, através da comunhão com o corpo, por Meio
-                    de suas posturas psicofisicas melhora o equilíbrio
+                    poderosa ferramenta de autoconhecimento e
+                    autodesenvolvimento, através da comunhão com o corpo, por
+                    Meio de suas posturas psicofisicas melhora o equilíbrio
                     emocional, a autoconfiança, eleva a autoestima. Para o Yoga
                     o corpo é uma ferramenta de desenvolvimento do espírito e no
                     corpo habita a Verdade Absoluta, pois o Samadhi, o Nirvana e
