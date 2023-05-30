@@ -92,7 +92,7 @@ function Home() {
           <div className="overlay">
             <h1>
               Seja bem vindo ao site do <br />{' '}
-              <span>Espaço Zen Hatha Yoga</span>
+              <span>Espaço consciência Zen</span>
             </h1>
 
             <p>
@@ -117,12 +117,10 @@ function Home() {
       <div className="containerCourses">
         <div className="coursesHeader">
           <div className="coursesHeaderLeft">
-            <h3>Conheça nossos cursos</h3>
-            <p>
-              {windowSize.width > 998
-                ? 'Passe o mouse sobre os cursos para conhecer um pouco mais sobre eles:'
-                : 'Clique sobre os cursos para conhecer um pouco mais sobre eles:'}
-            </p>
+            <h3>
+              Comece agora!
+              <br /> Invista em seu Autoconhecimento e desenvolvimento.
+            </h3>
           </div>
           <div className="coursesHeaderRight">
             <a
@@ -131,7 +129,7 @@ function Home() {
               target="_blank"
               rel="noreferrer"
             >
-              <i className="fa fa-whatsapp" /> Agende uma aula
+              <i className="fa fa-whatsapp" /> Agende sua
             </a>
           </div>
         </div>
