@@ -146,14 +146,11 @@ function Home() {
                 <div className="section">
                   <h2>Aulas de Yoga</h2>
                   <p>
-                    O Hathayoga é o mais terapêutico dos Yogas. É a mais
-                    poderosa ferramenta de autoconhecimento e
-                    autodesenvolvimento, através da comunhão com o corpo, por
-                    Meio de suas posturas psicofisicas melhora o equilíbrio
-                    emocional, a autoconfiança, eleva a autoestima. Para o Yoga
-                    o corpo é uma ferramenta de desenvolvimento do espírito e no
-                    corpo habita a Verdade Absoluta, pois o Samadhi, o Nirvana e
-                    a Iluminação sempre vira de dentro pra fora .
+                    O Hathayoga é a ferramenta mais poderosa de
+                    autoconhecimento, transformação e aprimoramento pessoal.
+                    Através de suas posturas psico-físicas melhora o equilíbrio
+                    emocional, diminui estresse e ansiedade , eleva sua
+                    autonomia e a autoestima .
                   </p>
                 </div>
               </li>
@@ -164,16 +161,12 @@ function Home() {
               >
                 Barra Access
                 <div className="section">
-                  <h2>TERAPIA BARRAS DE ACCESS</h2>
+                  <h2>BARRAS DE ACCESS</h2>
                   <p>
-                    é um tipo de terapia quântica, que através do acesso
-                    energético promove o equilíbrio entre os hemisférios
-                    cerebrais e entre o corpo e a mente, utilizando-se de uma
-                    técnica baseada na digito-puntura em 32 pontos específicos
-                    da cabeça, os toques sutis e irão impulsionar a dissipação
-                    de cargas eletromagnéticas liberando traumas, crenças e
-                    bloqueios armazenados nessas barras e proporcionando mais
-                    consciência, clareza mental, lucidez, calma e paz
+                    Promove o equilíbrio energético entre os hemisférios
+                    cerebrais , acalmando a mente, eliminando excessos de
+                    pensamentos, trazendo lucidez, calma , clareza mental e
+                    melhorando o seu sono, aumentando o bem-estar.
                   </p>
                 </div>
               </li>
@@ -186,10 +179,10 @@ function Home() {
                 <div className="section">
                   <h2>Massagem keiraku beauty</h2>
                   <p>
-                    Massagem vigorosa com técnica japonesa baseada na
-                    acupuntura, revigora, drena, desintoxica, desbloqueia os
-                    meridianos de energia restaurando o fluxo energético do
-                    corpo e relaxa
+                    Massagem que promove um detox físico , mental e emocional,
+                    baseada na digito-puntura e usando um mix de manobras de
+                    várias técnicas de massagens , relaxa, drena , desbloqueia e
+                    aumenta o fluxo do seu CHI.
                   </p>
                 </div>
               </li>
@@ -202,17 +195,11 @@ function Home() {
                 <div className="section">
                   <h2>Psicoterapia</h2>
                   <p>
-                    baseada na PSICOLOGIA HUMANISTA, com tendência teórica
-                    voltada à filosofia e considera que toda pessoa tem
-                    potencialidades para o crescimento e desenvolvimento
-                    naturais. Com o foco de empoderar o cliente a descobrir seu
-                    EU REAL, criando um ambiente acolhedor e empático em que o
-                    ser humano possa se desenvolver na direção em que ele
-                    escolher e para que ele possa manifestar e ser realmente
-                    quem é, através do autoconhecimento, da ampliação da
-                    consciência e compreensão da Física e Mecânica Quântica. E
-                    assim ajudar o paciente resolver seus sintomas e dores
-                    emocionais.
+                    Como um caminho para o autoconhecimento, aprimoramento, uma
+                    forma de entrar em contato com toda sua luz e toda sua
+                    sombra, conhecer suas emoções, potencialidades e limitações,
+                    quebrar crenças, preconceitos e paradigmas. Manifestar o seu
+                    EU REAL e seu brilho único pessoal .
                   </p>
                 </div>
               </li>

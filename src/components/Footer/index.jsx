@@ -24,8 +24,9 @@ const Footer = () => {
     <div className="containerFooter">
       <div className="aboutUs">
         <h3>Sobre nós : </h3>
-        Um espaço para você que quer se reconectar com a sua essência e se
-        redescobrir.
+        Um espaço para você que quer se reconectar com sua essência, se
+        redescobrir e se atualizar através do alinhamento entre seu corpo, sua
+        mente e sua essência divina seu EU VERDADEIRO.
       </div>
       <div className="social">
         <h3>Redes Sociais : </h3>
