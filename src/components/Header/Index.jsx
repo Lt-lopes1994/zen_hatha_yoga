@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 
-import Logo from '../../assets/img/NovoLogo.jpeg';
+import Logo from '../../assets/img/Logo_novo_Nilze.jpg';
 import '../../styles/Header.css';
 
 function Header() {
