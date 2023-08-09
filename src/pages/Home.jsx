@@ -129,7 +129,7 @@ function Home() {
               target="_blank"
               rel="noreferrer"
             >
-              <i className="fa fa-whatsapp" /> Agende sua
+              <i className="fa fa-whatsapp" /> Agende sua aula
             </a>
           </div>
         </div>
